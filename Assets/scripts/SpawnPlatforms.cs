@@ -10,6 +10,7 @@ public class SpawnPlatforms : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.CompareTag("portal")) {
 			GameObject prevModule = GameObject.FindGameObjectWithTag ("prevModule");
+			Debug.Log (prevModule);
 			if (prevModule) {
 				Destroy (prevModule);
 			}

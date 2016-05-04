@@ -9,6 +9,9 @@ TagManager:
   - small
   - big
   - DeathTrigger
+  - destroy
+  - end
+  - currModule
   layers:
   - Default
   - TransparentFX
