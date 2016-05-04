@@ -3,6 +3,7 @@ using System.Collections;
 
 public class touchWall : MonoBehaviour {
 	public GameObject firee;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -17,7 +18,9 @@ public class touchWall : MonoBehaviour {
 		if(col.gameObject.CompareTag("destroy")){
 			Debug.Log ("destroy hit");
 			Instantiate(firee, gameObject.transform.position, gameObject.transform.rotation);
-			Destroy(gameObject);
+
+			GameObject.Find ("char_ethan_skeleton").SetActive (false);
+			GameObject.Find ("char_ethan_body").SetActive (false);
 		}
 	}
 }

@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3363610}
   - 23: {fileID: 2304510}
   - 64: {fileID: 6488990}
+  - 114: {fileID: 11462752}
   m_Layer: 0
   m_Name: RockWall
   m_TagString: destroy
@@ -75,6 +76,19 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300004, guid: 69135a756f6e04845a990dcf1ec69504, type: 3}
+--- !u!114 &11462752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1247a8fc22dd84e65abfd3836e601e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oldCanvas: {fileID: 0}
+  newCanvas: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
