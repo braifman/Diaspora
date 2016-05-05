@@ -21,7 +21,7 @@ public class showScore : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		text.text = "Distance = " + distance + "m\nFastest Speed = " + fastestSpeed + "\n Time = " + time + "s\n Score = " + calculateScore (distance, fastestSpeed, time) + "\n HighScore = " + High(calculateScore (distance, fastestSpeed, time)) + "\nPress 'space' to restart!"; 
+		text.text = "Distance = " + (distance + 22) + "m\nFastest Speed = x" + fastestSpeed + "\n Time = " + time + "s\n Score = " + calculateScore (distance, fastestSpeed, time) + "\n HighScore = " + High(calculateScore (distance, fastestSpeed, time)) + "\nPress 'space' to restart!"; 
 	}
 
 	// revisions fosho

@@ -12,6 +12,7 @@ TagManager:
   - destroy
   - end
   - currModule
+  - prevModule
   layers:
   - Default
   - TransparentFX

@@ -5,8 +5,12 @@ public class destroyObs : MonoBehaviour {
 
 	public GameObject firee;
 
+
+
 	// Use this for initialization
 	void Start () {
+
+
 
 	}
 	
@@ -22,6 +26,7 @@ public class destroyObs : MonoBehaviour {
 			Instantiate (firee, col.transform.position, col.transform.rotation);
 
 			Destroy(col.gameObject);
+
 			Debug.Log ("what is going on");
 		}
 			

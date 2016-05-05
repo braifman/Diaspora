@@ -16,6 +16,7 @@ public class GetPlatforms : MonoBehaviour {
 	}
 
 	public GameObject GetRandomPlatform() {
+		Debug.Log ("random");
 		int moduleIndex = Random.Range (0, 2);
 		return platformModules[moduleIndex];
 	}

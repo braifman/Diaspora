@@ -21,7 +21,6 @@ public class SpawnPlatforms : MonoBehaviour {
 	}
 
 	void Spawn() {
-		Debug.Log ("spawning");
 		GameObject currModule = GameObject.FindGameObjectWithTag ("currModule");
 		currModule.tag = "prevModule";
 		GameObject platforms = GameObject.FindGameObjectWithTag ("platforms");
