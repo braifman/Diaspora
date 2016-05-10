@@ -31,7 +31,7 @@ GameObject:
   - 82: {fileID: 8285056}
   m_Layer: 0
   m_Name: Firebolt
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -378,6 +378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firee: {fileID: 131164, guid: 3c5f4e32698bdb04eaed647f60310510, type: 2}
+  fired: 0
 --- !u!114 &11466612
 MonoBehaviour:
   m_ObjectHideFlags: 1

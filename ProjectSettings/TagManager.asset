@@ -13,6 +13,7 @@ TagManager:
   - end
   - currModule
   - prevModule
+  - fireball
   layers:
   - Default
   - TransparentFX

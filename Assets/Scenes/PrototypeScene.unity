@@ -1363,7 +1363,7 @@ MonoBehaviour:
   target: {fileID: 497795671}
   damping: 15
   currentDamping: 0
-  smooth: 0
+  smooth: 1
 --- !u!45 &537370220
 Skybox:
   m_ObjectHideFlags: 0
@@ -1849,7 +1849,8 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11404980, guid: ade5be0145debd24eac99c7f0720ce53, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: ade5be0145debd24eac99c7f0720ce53, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &722750515
